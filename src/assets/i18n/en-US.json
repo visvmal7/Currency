@@ -1,0 +1,84 @@
+{
+    "top-nav": {
+        "languageMenu": "Language",
+        "menuOptionEnglish": "English",
+        "menuOptionSimpChinese": "简体中文",
+        "menuOptionJapanese": "Deutsche"
+    },
+    "side-nav-bar": {
+        "homeMenu": "Home",
+        "defectTypesMenu": "Defect Types",
+        "hardcodeMenu": "Hardcoding",
+        "truncationMenu": "Truncation",
+        "corruptionMenu": "Corruption",
+        "dateTimeMenu": "Date/Time",
+        "overlapMenu": "Overlapping",
+        "supportMenu": "Support"
+    },
+    "home": {
+        "mainHeading": "Globalization Automation",
+        "subHeading": "This web application is designed for automation globalization testing purposes. It contains some of the most common types of globalization defects which can be detected by the Globalization Automation Library (GAL).",
+        "aboutGalHeading": "About GAL",
+        "aboutGalContent": "The Globalization Automation Library (GAL) is a JavaScript library that can be used with WebDriver based e2e test frameworks (like Protractor) to identify internationalization issues. The library can be used to detect the following most common types of globalization issues on a web pages:",
+        "aboutGalLi1": "Hardcoded Strings",
+        "aboutGalLi2": "Corrupt Characters",
+        "aboutGalLi3": "Truncation",
+        "aboutGalLi4": "Incorrect Date/Time Formats",
+        "aboutGalLi5": "Overlapping Elements",
+        "aboutArpHeading": "About ARP",
+        "aboutArpContentP1": "The Assisted Review Portal (ARP) is a web application that stores screenshots and associated incidents in a structured manner. It has been developed to conduct linguistic reviews using screenshots of the product's user interface. It enables users to see the translated strings in context to provide accurate translations.",
+        "aboutArpContentP2": "ARP also has an image comparison feature to identify any changes that have occurred between different versions of the product, which can reduce the manual effort in regression testing."
+    },
+    "hardcoding": {
+        "mainHeading": "Hardcoding",
+        "subHeading": "The section below contains elements that have hardcoded strings (i.e. the text is not loaded from resource files)."
+    },
+    "truncation": {
+        "mainHeading": "Truncation",
+        "truncTitle": "This title is truncated",
+        "truncP1": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.",
+        "truncFirstName": "First Name: ",
+        "truncLastName": "Last Name: ",
+        "truncPlaceholder": "Truncated Placeholder",
+        "truncPrimaryBtn": "Truncated Primary Button",
+        "truncSecondaryBtn": "Truncated Secondary Button",
+        "truncDisabledBtn": "Truncated Disabled Button",
+        "truncSelectedCheck": "Truncated Checkbox (Selected)",
+        "truncUnselectedCheck": "Truncated Checkbox (Unselected)",
+        "truncChip": "Truncated Chip "
+    },
+    "corruption": {
+        "mainHeading": "Corruption",
+        "subHeading": "The section below contains elements that have corrupted text. There is also a section with elements using extended characters (i.e. those used for French, German, Spanish etc.), which should not be detected as corrupt.",
+        "corruptSectionHeading": "Corrupt Character Section",
+        "extendedSectionHeading": "Extended Character Section",
+        "corruptContent": "Thæ �uick br¥»n fox jum�s over ¹®® ¥»zy dog. The qu¾ck bro¯n fox jumps o¹®®r the ¥»zy dog. ¥»e quick brown fox jumps o¹®®r the l¯zy ¥»g. Thæ qu�ck brown fox j¹®®ps o¥»r the lazy dog. The ¹®®ck b�own fox ju¥»s o¥»r the lazy dog.",
+        "extendedContent": "Thè qüiçk brôwn fox jumps over the läzy dog. Thé qüiçk brown fôx jumps over the låzy dog. Thè qüiçk brown fox jumps ôver the läzy dog. Thê qüiçk brown fox jumps over the låzy dôg. Thé qüiçk brôwn fôx jumps over the läzy dôg."
+    },
+    "dateTime": {
+        "mainHeading": "Date/Time",
+        "subHeading": "The section below contains elements with the date and time set to the United States format and not set for other regions.",
+        "dateTitle": "Date Title: ",
+        "usShortFormat": "Short US Format: ",
+        "nonUsShortFormat": "Short Non-US Format: ",
+        "usLongFormat": "Long US Format: ",
+        "nonUsLongFormat": "Long Non-US Format: "
+    },
+    "overlapping": {
+        "mainHeading": "Overlapping",
+        "subHeading": "The section below contains elements that are overlapping each other.",
+        "overlapP1": "This paragraph should overlap with the second paragraph (highlighted in light gray color).",
+        "overlapP2": "This is the second paragraph that should overlap with the first.",
+        "overlapP3": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.",
+        "overlapFirstName": "First Name: ",
+        "overlapPlaceholder": "Overlapped Placeholder",
+        "overlapPrimaryBtn": "Overlapped Primary Button",
+        "overlapSecondaryBtn": "Overlapped Secondary Button",
+        "overlapDisabledBtn": "Overlapped Disabled Button"
+    },
+    "support": {
+        "mainHeading": "Support",
+        "subHeading": "If you would like to to contribute to this website, or to know more information on any of the globalization tools, contact:",
+        "supportTitle": "Learn more about Veritas Globalization Tools"
+    }
+}

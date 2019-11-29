@@ -28,11 +28,6 @@ app {
     display: flex;
     flex-direction: column;
     flex: 1;
-}
-
-.menuItem {
-    padding-left: 10px;
-    padding-right: 90px;
-}
+}	
 
   

@@ -1,0 +1,59 @@
+<div class="content">
+    <h2>{{ 'hardcoding.mainHeading' | translate }}</h2>
+    <p>{{ 'hardcoding.subHeading' | translate }}</p>
+    <vdl-card>
+        <vdl-card-content>
+            <h3>Hardcoded Title</h3>
+            <p>
+                The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+                The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+                The quick brown fox jumps over the lazy dog.
+            </p>
+            <table class="vdl-table" style="width: 100%;">
+                <tr class="vdl-header-row ng-star-inserted">
+                    <td style="width: 75px;" class="vdl-cell cdk-column-position vdl-column-position ng-star-inserted">
+                        First Name:
+                    </td>
+                    <td class="vdl-cell cdk-column-position vdl-column-position ng-star-inserted">
+                        <input style="width: 50%; height: 20px;" vdlInput placeholder="Hardcoded Placeholder"
+                            id="hard_input" vdlInput>
+                    </td>
+                </tr>
+                <tr class="vdl-header-row ng-star-inserted">
+                    <td style="width: 75px;" class="vdl-cell cdk-column-position vdl-column-position ng-star-inserted">
+                        Last Name:
+                    </td>
+                    <td class="vdl-cell cdk-column-position vdl-column-position ng-star-inserted">
+                        <input style="width: 50%; height: 20px;" vdlInput placeholder="Hardcoded Placeholder"
+                            id="hard_input" vdlInput>
+                    </td>
+                </tr>
+            </table>
+            <p>
+                <button vdl-primary-button="" class="vdl-primary-button">
+                    <span class="vdl-button-wrapper">Hardcoded Primary Button</span>
+                </button>&nbsp;
+                <button vdl-secondary-button>Hardcoded Secondary Button</button>&nbsp;
+                <button disabled vdl-secondary-button>Hardcoded Disabled Button</button>
+            </p>
+
+            <p>
+                <vdl-checkbox [checked]="true" [label]="'Hardcoded Checkbox (Selected)'"></vdl-checkbox>&nbsp;
+                <vdl-checkbox [checked]="false" [label]="'Hardcoded Checkbox (Unselected)'"></vdl-checkbox>
+            </p>
+            <p>
+                <vdl-chip-list>
+                    <vdl-chip
+                        class="vdl-chip vdl-standard-chip vdl-primary vdl-chip-with-trailing-icon ng-star-inserted"
+                        role="option" id="chip1" tabindex="-1" aria-disabled="false" aria-selected="false">Hardcoded
+                        Chip
+                        <vdl-icon _ngcontent-c104 class="vdl-chip-remove vdl-icon material-icons ng-star-inserted"
+                            role="img" vdlchipremove aria-hidden="true">cancel</vdl-icon>
+                    </vdl-chip>
+                </vdl-chip-list>
+            </p>
+            <p>
+            </p>
+        </vdl-card-content>
+    </vdl-card>
+</div>

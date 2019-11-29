@@ -1,0 +1,84 @@
+{
+    "top-nav": {
+        "languageMenu": "语言",
+        "menuOptionEnglish": "English",
+        "menuOptionSimpChinese": "简体中文",
+        "menuOptionJapanese": "Deutsche"
+    },
+    "side-nav-bar": {
+        "homeMenu": "主页",
+        "defectTypesMenu": "缺陷类型",
+        "hardcodeMenu": "硬编码",
+        "truncationMenu": "截断",
+        "corruptionMenu": "损坏的字符",
+        "dateTimeMenu": "日期和时间格式",
+        "overlapMenu": "重叠",
+        "supportMenu": "支持"
+    },
+    "home": {
+        "mainHeading": "全球化自动化",
+        "subHeading": "此Web应用程序专为自动化全球化测试目的而设计. 它包含了一些可以通过 Globalization Automation Library（GAL）检测到的最常见的全球化缺陷类型.",
+        "aboutGalHeading": "关于GAL",
+        "aboutGalContent": "Globalization Automation Library（GAL）是一个JavaScript库, 可以与基于WebDriver的e2e测试框架（如Protractor）一起使用来识别国际化问题. 该库可用于在网页上检测以下最常见的全球化问题类型:",
+        "aboutGalLi1": "硬编码",
+        "aboutGalLi2": "损坏的字符",
+        "aboutGalLi3": "截断",
+        "aboutGalLi4": "日期和时间格式",
+        "aboutGalLi5": "重叠",
+        "aboutArpHeading": "关于ARP",
+        "aboutArpContentP1": "Assisted Review Portal（ARP）是一种Web应用程序, 以结构化方式存储屏幕截图和相关事件. 它的开发是为了使用产品用户界面的屏幕截图进行语言评论. 它使用户能够在上下文中查看翻译的字符串, 以提供准确的翻译.",
+        "aboutArpContentP2": "ARP还具有图像比较功能, 以识别产品的不同版本之间发生的任何更改, 这可以减少回归测试中的手动操作."
+    },
+    "hardcoding": {
+        "mainHeading": "硬编码",
+        "subHeading": "以下部分包含具有硬编码字符串的元素 (即文本未从资源文件加载)."
+    },
+    "truncation": {
+        "mainHeading": "截断",
+        "truncTitle": "此标题被截断",
+        "truncP1": "敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗.",
+        "truncFirstName": "名字: ",
+        "truncLastName": "姓: ",
+        "truncPlaceholder": "截断的占位符",
+        "truncPrimaryBtn": "截断的主按钮",
+        "truncSecondaryBtn": "截断的辅助按钮",
+        "truncDisabledBtn": "截断禁用按钮",
+        "truncSelectedCheck": "截断复选框 (已选中)",
+        "truncUnselectedCheck": "截断的复选框 (未选中)",
+        "truncChip": "截断芯片 "
+    },
+    "corruption": {
+        "mainHeading": "损坏的字符",
+        "subHeading": "以下部分包含文本已损坏的元素. 还有一个部分使用扩展字符 (即用于法语, 德语, 西班牙语等) 的元素. 不应将其检测为损坏.",
+        "corruptSectionHeading": "损坏的文本部分",
+        "extendedSectionHeading": "扩展字符部分",
+        "corruptContent": "敏¹的棕�狐狸跳¥»了懒狗. 敏捷的¥»色狐□跳过了懒狗. 敏□□□色狐¹跳过了懒狗. 敏捷的¹色狐狸跳�了懒狗. 敏□的棕¥»狐狸跳□□□狗.",
+        "extendedContent": "Thè qüiçk brôwn fox jumps over the läzy dog. Thé qüiçk brown fôx jumps over the låzy dog. Thè qüiçk brown fox jumps ôver the läzy dog. Thê qüiçk brown fox jumps over the låzy dôg. Thé qüiçk brôwn fôx jumps over the läzy dôg."
+    },
+    "dateTime": {
+        "mainHeading": "日期和时间格式",
+        "subHeading": "以下部分包含日期和时间设置为美国格式而未设置为其他区域的元素.",
+        "dateTitle": "日期标题: ",
+        "usShortFormat": "简短的美国时间格式: ",
+        "nonUsShortFormat": "简短的非美国时间格式: ",
+        "usLongFormat": "长的美国时间格式: ",
+        "nonUsLongFormat": "长的非美国格式: "
+    },
+    "overlapping": {
+        "mainHeading": "重叠",
+        "subHeading": "以下部分包含相互重叠的元素.",
+        "overlapP1": "本段应与第二段重叠 (以浅灰色突出显示).",
+        "overlapP2": "这是第二段应与第一段重叠的地方.",
+        "overlapP3": "敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗. 敏捷的棕色狐狸跳过了懒狗.",
+        "overlapFirstName": "名字: ",
+        "overlapPlaceholder": "重叠的占位符",
+        "overlapPrimaryBtn": "重叠的主按钮",
+        "overlapSecondaryBtn": "重叠的辅助按钮",
+        "overlapDisabledBtn": "重叠的禁用按钮"
+    },
+    "support": {
+        "mainHeading": "支持",
+        "subHeading": "如果您想为本网站做出贡献, 或了解有关任何全球化工具的更多信息, 请联系:",
+        "supportTitle": "了解有关Veritas全球化工具的更多信息"
+    }
+}

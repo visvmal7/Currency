@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~vdl-angular/prebuilt-themes/vdl-global.css';
+@import '~vdl-angular/flexboxgrid/flexboxgrid.min.css';
+@import '~vdl-angular/prebuilt-themes/deeppurple-amber.css';
+
+
+.content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}

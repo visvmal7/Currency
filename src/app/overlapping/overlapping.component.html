@@ -1,0 +1,30 @@
+<div class="content">
+  <h2>{{ 'overlapping.mainHeading' | translate }}</h2>
+  <p>{{ 'overlapping.subHeading' | translate }}</p>
+  <vdl-card>
+    <vdl-card-content>
+      <div id="overlap_1" style="float: left; width:50%;">
+        {{ 'overlapping.overlapP1' | translate }}
+      </div>
+      <div id="overlap_2"
+        style="width: 50%; position: absolute; left: 300px; background-color: lightgray; opacity: 0.8;">
+        {{ 'overlapping.overlapP2' | translate }}
+      </div>
+      <p id="overlap_3">
+        {{ 'overlapping.overlapP3' | translate }}
+      </p>
+      <p>
+        {{ 'overlapping.overlapFirstName' | translate }}
+        <input style="height: 20px; float: left; position: absolute; left: 70px;" vdlInput
+          placeholder="{{ 'overlapping.overlapPlaceholder' | translate }}" id="hard_input" vdlInput>
+      </p>
+      <p>
+        <button vdl-primary-button="" class="vdl-primary-button">
+          <span class="vdl-button-wrapper">{{ 'overlapping.overlapPrimaryBtn' | translate }}</span>
+        </button>&nbsp;
+        <button style="position: absolute; left: 150px;" vdl-secondary-button>{{ 'overlapping.overlapSecondaryBtn' | translate }}</button>&nbsp;
+        <button disabled vdl-secondary-button>{{ 'overlapping.overlapDisabledBtn' | translate }}</button>
+      </p>
+    </vdl-card-content>
+  </vdl-card>
+</div>

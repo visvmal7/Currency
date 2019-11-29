@@ -1,0 +1,84 @@
+{
+    "top-nav": {
+        "languageMenu": "Sprache",
+        "menuOptionEnglish": "English",
+        "menuOptionSimpChinese": "简体中文",
+        "menuOptionJapanese": "Deutsche"
+    },
+    "side-nav-bar": {
+        "homeMenu": "Zuhause",
+        "defectTypesMenu": "Fehlertypen",
+        "hardcodeMenu": "Hardcodierte Zeichenfolgen",
+        "truncationMenu": "Kürzungsfehler",
+        "corruptionMenu": "Beschädigt",
+        "dateTimeMenu": "Datum/Uhrzeit",
+        "overlapMenu": "Überlappung",
+        "supportMenu": "Unterstützung"
+    },
+    "home": {
+        "mainHeading": "Automatisierung Globalisierung",
+        "subHeading": "Diese Webanwendung wurde für Testzwecke der Automatisierungsglobalisierung entwickelt. Es enthält einige der häufigsten Arten von Globalisierungsfehlern, die von der Globalization Automation Library (GAL) erkannt werden können.",
+        "aboutGalHeading": "Über die GAL",
+        "aboutGalContent": "Die Globalization Automation Library (GAL) ist eine JavaScript-Bibliothek, die mit WebDriver-basierten e2e-Test-Frameworks (wie Protractor) verwendet werden kann, um Internationalisierungsprobleme zu identifizieren. Mit der Bibliothek können die folgenden häufigsten Arten von Globalisierungsproblemen auf Webseiten erkannt werden:",
+        "aboutGalLi1": "Hardcodierte Zeichenfolgen",
+        "aboutGalLi2": "Beschädigt",
+        "aboutGalLi3": "Kürzungsfehler",
+        "aboutGalLi4": "Falsche Datums- / Uhrzeitformate",
+        "aboutGalLi5": "Überlappende Elemente",
+        "aboutArpHeading": "Über die ARP",
+        "aboutArpContentP1": "Das Assisted Review Portal (ARP) ist eine Webanwendung, die Screenshots und verwandte Vorfälle speichert. Es wurde für sprachliche Überprüfungszwecke entwickelt. Es enthält Screenshots der Benutzeroberfläche des Produkts, mit denen Benutzer die übersetzten Zeichenfolgen im Kontext anzeigen können, um genaue Übersetzungen bereitzustellen.",
+        "aboutArpContentP2": "ARP verfügt außerdem über eine Bildvergleichsfunktion, um Änderungen zu identifizieren, die zwischen verschiedenen Versionen des Produkts aufgetreten sind. Dies kann den manuellen Aufwand beim Regressionstest verringern."
+    },
+    "hardcoding": {
+        "mainHeading": "Hardcodierte Zeichenfolgen",
+        "subHeading": "Der folgende Abschnitt enthält Elemente mit fest codierten Zeichenfolgen (d. H. Der Text wird nicht aus Ressourcendateien geladen)."
+    },
+    "truncation": {
+        "mainHeading": "Kürzungsfehler",
+        "truncTitle": "Dieser Titel ist abgeschnitten",
+        "truncP1": "Der schnelle braune Fuchs springt über den faulen Hund. Der schnelle braune Fuchs springt über den faulen Hund. Der schnelle braune Fuchs springt über den faulen Hund. Der schnelle braune Fuchs springt über den faulen Hund. Der schnelle braune Fuchs springt über den faulen Hund.",
+        "truncFirstName": "Vorname: ",
+        "truncLastName": "Nachname: ",
+        "truncPlaceholder": "Abgeschnittener Platzhalter",
+        "truncPrimaryBtn": "Abgeschnittene Primär Schaltfläche",
+        "truncSecondaryBtn": "Abgeschnittene Sekundär Schaltfläche",
+        "truncDisabledBtn": "Abgeschnittene deaktivierte Schaltfläche",
+        "truncSelectedCheck": "Abgeschnittenes Kontrollkästchen (ausgewählt)",
+        "truncUnselectedCheck": "Abgeschnittenes Kontrollkästchen (nicht ausgewählt)",
+        "truncChip": "Abgeschnittenes Chip "
+    },
+    "corruption": {
+        "mainHeading": "Beschädigt",
+        "subHeading": "Der folgende Abschnitt enthält Elemente, die fehlerhaften Text enthalten. Es gibt auch einen Abschnitt mit Elementen, die erweiterte Zeichen verwenden (d. H. Solche, die für Französisch, Deutsch, Spanisch usw. verwendet werden), die nicht als fehlerhaft erkannt werden sollten.",
+        "corruptSectionHeading": "Beschädigter Zeichenbereich",
+        "extendedSectionHeading": "Erweiterte Zeichen",
+        "corruptContent": "D◓r schnelle br□□ne Fuchs spri◓gt ◓ber den fau□□n Hund. Der schnelle brau□□e Fuchs spri◓gt über den faulen Hund. Der schnelle braune Fuchs springt über den faulen Hund. Der schnelle braune Fuchs springt über den faulen Hund. Der schnelle braune Fuchs springt über den faulen Hund.",
+        "extendedContent": "Thè qüiçk brôwn fox jumps over the läzy dog. Thé qüiçk brown fôx jumps over the låzy dog. Thè qüiçk brown fox jumps ôver the läzy dog. Thê qüiçk brown fox jumps over the låzy dôg. Thé qüiçk brôwn fôx jumps over the läzy dôg."
+    },
+    "dateTime": {
+        "mainHeading": "Datum/Uhrzeit",
+        "subHeading": "Der folgende Abschnitt enthält Elemente, bei denen Datum und Uhrzeit auf das US-Format und nicht auf andere Regionen eingestellt sind.",
+        "dateTitle": "Datum Titel: ",
+        "usShortFormat": "Kurzes US-Format: ",
+        "nonUsShortFormat": "Kurzes Non-US-Format: ",
+        "usLongFormat": "Langes US-Format: ",
+        "nonUsLongFormat": "Langes Non-US-Format: "
+    },
+    "overlapping": {
+        "mainHeading": "Überlappung",
+        "subHeading": "Der folgende Abschnitt enthält Elemente, die sich überlappen.",
+        "overlapP1": "Dieser Absatz sollte sich mit dem zweiten Absatz überschneiden (grau hervorgehoben).",
+        "overlapP2": "Dies ist der zweite Absatz, der sich mit dem ersten überschneiden sollte.",
+        "overlapP3": "Der schnelle braune Fuchs springt über den faulen Hund. Der schnelle braune Fuchs springt über den faulen Hund. Der schnelle braune Fuchs springt über den faulen Hund. Der schnelle braune Fuchs springt über den faulen Hund. Der schnelle braune Fuchs springt über den faulen Hund.",
+        "overlapFirstName": "Vorname: ",
+        "overlapPlaceholder": "Überlappung Platzhalter",
+        "overlapPrimaryBtn": "Überlappung Primär Schaltfläche",
+        "overlapSecondaryBtn": "Überlappung Sekundär Schaltfläche",
+        "overlapDisabledBtn": "Überlappung deaktivierte Schaltfläche"
+    },
+    "support": {
+        "mainHeading": "Unterstützung",
+        "subHeading": "Wenn Sie einen Beitrag zu dieser Website leisten oder weitere Informationen zu einem der Globalisierungstools erhalten möchten, wenden Sie sich an:",
+        "supportTitle": "Erfahren Sie mehr über Veritas Globalization Tools"
+    }
+}

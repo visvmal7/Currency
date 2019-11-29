@@ -1,0 +1,42 @@
+<div class="content">
+    <h2>{{ 'truncation.mainHeading' | translate }}</h2>
+    <vdl-card>
+        <vdl-card-content>
+            <h3 style="width: 30px; overflow: hidden;">{{ 'truncation.truncTitle' | translate }}</h3>
+            <p id="truncated_1" style="height: 30px; overflow: hidden;">{{ 'truncation.truncP1' | translate }}</p>
+            <p style="height: 20px; overflow:hidden;">
+                {{ 'truncation.truncFirstName' | translate }}
+                <input style="height:20px; width: 20px; overflow:hidden;" type="text" name="FirstName" placeholder="{{ 'truncation.truncPlaceholder' | translate }}"><br>
+            </p>
+            <p style="height: 5px; overflow:hidden;">
+                {{ 'truncation.truncLastName' | translate }}
+                <input style="height:5px; width: 50px; overflow:hidden;" type="text" name="LastName" placeholder="{{ 'truncation.truncPlaceholder' | translate }}"><br>
+            </p>
+            <p>
+                <button style="height: 25px; overflow:hidden;" vdl-primary-button="" class="vdl-primary-button">
+                    <span class="vdl-button-wrapper">{{ 'truncation.truncPrimaryBtn' | translate }}</span>
+                </button>&nbsp;
+                <button style="width: 35px; overflow:hidden;" vdl-secondary-button>{{ 'truncation.truncSecondaryBtn' | translate }}</button>&nbsp;
+                <button style="height: 25px; width: 35px; overflow:hidden;" disabled vdl-secondary-button>{{ 'truncation.truncDisabledBtn' | translate }}</button>
+            </p>
+
+            <p style="height: 10px; overflow:hidden;">
+                <input type="checkbox" name="check1" checked="true"> {{ 'truncation.truncSelectedCheck' | translate }}
+            </p>
+            <p style="height: 20px; width: 20px; overflow:hidden;">
+                <input type="checkbox" name="check2"> {{ 'truncation.truncUnselectedCheck' | translate }}
+            </p>
+            <p>
+                <vdl-chip-list>
+                    <vdl-chip style="width: 35px; overflow:hidden;"
+                        class="vdl-chip vdl-standard-chip vdl-primary vdl-chip-with-trailing-icon ng-star-inserted"
+                        role="option" id="chip1" tabindex="-1" aria-disabled="false" aria-selected="false">
+                        {{ 'truncation.truncChip' | translate }}
+                        <vdl-icon _ngcontent-c104 class="vdl-chip-remove vdl-icon material-icons ng-star-inserted"
+                            role="img" vdlchipremove aria-hidden="true">cancel</vdl-icon>
+                    </vdl-chip>
+                </vdl-chip-list>
+            </p>
+        </vdl-card-content>
+    </vdl-card>
+</div>
